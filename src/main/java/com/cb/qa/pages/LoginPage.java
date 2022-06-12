@@ -15,7 +15,7 @@ public class LoginPage extends TestBase {
 	@FindBy(name = "password")
 	WebElement password;
 
-	@FindBy(xpath = "@button[type='submit']")
+	@FindBy(xpath = "/html/body/div[1]/div[1]/div/section/div/div/form/div[2]/button")
 	WebElement loginBtn;
 
 	// Initializing the Page Objects with this(current class objects)
