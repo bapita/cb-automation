@@ -1,5 +1,7 @@
 package com.cb.qa.testcases;
 
+import org.testng.annotations.BeforeMethod;
+
 import com.cb.qa.base.TestBase;
 import com.cb.qa.pages.DashboardPage;
 import com.cb.qa.pages.LoginPage;
