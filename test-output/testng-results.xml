@@ -1,20 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-12T22:06:25 IST" name="Default suite" finished-at="2022-06-12T22:06:45 IST" duration-ms="19551">
+  <suite started-at="2022-06-14T21:02:19 IST" name="Default suite" finished-at="2022-06-14T21:02:49 IST" duration-ms="29520">
     <groups>
     </groups>
-    <test started-at="2022-06-12T22:06:25 IST" name="Default test" finished-at="2022-06-12T22:06:45 IST" duration-ms="19551">
+    <test started-at="2022-06-14T21:02:19 IST" name="Default test" finished-at="2022-06-14T21:02:49 IST" duration-ms="29520">
       <class name="com.cb.qa.testcases.DashboardPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cb.qa.testcases.DashboardPageTest@783a467b]" started-at="2022-06-12T22:06:25 IST" name="setUp" finished-at="2022-06-12T22:06:39 IST" duration-ms="13951" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cb.qa.testcases.DashboardPageTest@2d52216b]" started-at="2022-06-14T21:02:19 IST" name="setUp" finished-at="2022-06-14T21:02:33 IST" duration-ms="13637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="selectCompanyNameTest()[pri:1, instance:com.cb.qa.testcases.DashboardPageTest@783a467b]" started-at="2022-06-12T22:06:39 IST" name="selectCompanyNameTest" finished-at="2022-06-12T22:06:45 IST" duration-ms="5518" status="PASS">
+        <test-method signature="selectCompanyNameTest()[pri:1, instance:com.cb.qa.testcases.DashboardPageTest@2d52216b]" started-at="2022-06-14T21:02:33 IST" name="selectCompanyNameTest" finished-at="2022-06-14T21:02:37 IST" duration-ms="4178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCompanyNameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cb.qa.testcases.DashboardPageTest@2d52216b]" started-at="2022-06-14T21:02:37 IST" name="tearDown" finished-at="2022-06-14T21:02:38 IST" duration-ms="1295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cb.qa.testcases.DashboardPageTest@2d52216b]" started-at="2022-06-14T21:02:38 IST" name="setUp" finished-at="2022-06-14T21:02:48 IST" duration-ms="9754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="visitStaffPageTest()[pri:2, instance:com.cb.qa.testcases.DashboardPageTest@2d52216b]" started-at="2022-06-14T21:02:48 IST" name="visitStaffPageTest" finished-at="2022-06-14T21:02:48 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visitStaffPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cb.qa.testcases.DashboardPageTest@2d52216b]" started-at="2022-06-14T21:02:48 IST" name="tearDown" finished-at="2022-06-14T21:02:49 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.cb.qa.testcases.DashboardPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

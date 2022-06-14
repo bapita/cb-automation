@@ -15,6 +15,10 @@ public class DashboardPage extends TestBase {
 
 	@FindBy(name = "company")
 	WebElement selectCompany;
+	
+	@FindBy(xpath="//*[@id=\"navigation_data_id\"]/nav/a[7]")
+	WebElement staffLink;
+	
 
 	// Initializing page objects
 	public DashboardPage() {
@@ -25,7 +29,11 @@ public class DashboardPage extends TestBase {
 	public void selectCompany() {
 		Select dropdown = new Select(selectCompany);
 		dropdown.getOptions().get(48).click();
-//		return new DashboardPage();
+	}
+	
+	public StaffPage  clickStaffLink() {
+		staffLink.click();
+		return new StaffPage();
 	}
 
 }
