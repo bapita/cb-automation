@@ -19,7 +19,7 @@ public class DashboardPageTest extends TestBase{
 		super();
 	}
 	
-	@BeforeMethod
+	@BeforeMethod 
 	public void setUp() {
 		initialization();
 		loginpage = new LoginPage();
